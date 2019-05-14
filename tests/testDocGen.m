@@ -1,0 +1,29 @@
+%"""
+%Unit tests for biotracs.docgen.*
+%* License: BIOASTER License
+%* Created: 2017
+%Bioinformatics team, Omics Hub, BIOASTER Technology Research Institute (http://www.bioaster.org)
+%"""
+function testDocGen( cleanAll )
+    if nargin == 0 || cleanAll
+        clc; close all force;
+        restoredefaultpath();
+    end
+    
+    autoload( ...
+        'PkgPaths', {fullfile(pwd, '../../')}, ...
+        'Dependencies', {...
+            'biotracs-m-docgen', ...
+            'biotracs-m-metadata', ...
+            'biotracs-m-spectra', ...
+        }, ...
+        'Variables',  struct(...
+        ) ...
+    );
+
+    %% Tests
+    import matlab.unittest.TestSuite;
+    Tests = TestSuite.fromFolder('./', 'IncludingSubfolders', true);
+
+    Tests.run();
+end

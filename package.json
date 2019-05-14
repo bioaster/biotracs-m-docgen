@@ -1,0 +1,7 @@
+{
+	"name"			: "biotracs-m-docgen",
+    "description"    : "Biotracs application for spectra processing and analysis",
+	"dependencies"	: [
+		"biotracs-m-biochem"
+		]
+}
