@@ -1,15 +1,15 @@
-# Biotracs-docgen application
+# BioTracs DocGen application
 
-The biotracs-docgen application is a documentation generator for biotracs applications.
+The `biotracs-m-docgen` application is a documentation generator for MATLAB BioTracs applications.
 
-# Learn more about the biotracs project
+# Learn more about the BioTracs project
 
-To learn more about the biotracs project, please refers to https://github.com/bioaster/biotracs
+To learn more about the BioTracs project, please refers to https://github.com/bioaster/biotracs
 
 # Usage
 
-Please refer to the documentation at https://github.com/bioaster/biotracs
+Please refer to the documentation at https://bioaster.github.io/biotracs/documentation
 
 # License
 
-BIOASTER License
+BIOASTER license https://github.com/bioaster/biotracs/blob/master/LICENSE
