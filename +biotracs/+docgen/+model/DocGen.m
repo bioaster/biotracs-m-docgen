@@ -16,6 +16,7 @@ classdef DocGen < biotracs.core.mvc.model.Workflow
         
         % Constructor
         function this = DocGen()
+            %#function biotracs.Docu.model.DocuConfig
             this@biotracs.core.mvc.model.Workflow();
             this.doBuildWorkflow();
         end
